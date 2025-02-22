@@ -1,0 +1,126 @@
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.phone {
+    width: 40%;  /* iPhone X width */
+    height:auto; /* iPhone X height */
+    
+  }
+  .nav{
+   
+    width: 100%;
+    height: 80px;
+    display: flex;
+  }
+  .profale{
+    width: 20%;
+    height: 80px;
+    background-color: #8b8a8a;
+   
+  }
+  .search{
+    display: flex;
+    width: 80%;
+    height: 80px;
+    background-color: rgb(23, 223, 83);
+  }
+  input[type="search"] {
+    padding: 8px;
+    width: 100%;
+    border: 5px solid #ccc;
+    border-radius: 5px;
+}
+.hr{
+    margin-top: 22px;
+}
+
+button {
+    width: 100%;
+    background: rgb(151, 219, 94);
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.user{
+    width: 100%;
+    height: 80px;
+    background-color: violet;
+}
+
+a:hover .manageman_user {
+    background-color: rgb(216, 98, 98);
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+
+.manageman_user {
+    display: flex;
+    align-items: center;
+   
+    border: 1px solid #e93636;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+a .user:hover{
+    background-color: rgb(159, 159, 187);
+}
+a:hover .manageman_user {
+    background-color: rgb(199, 36, 36);
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.photo {
+    margin-left: 10px;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(99, 240, 56);
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+a:hover .photo {
+    background-color: blue;
+}
+.photo img {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.name h2 {
+    font-size: 20px;
+    color: #333;
+    font-family:Khmer OS Battambang;
+    margin: 0;
+}
+
+/* Styling <h4> */
+.name h4 {
+    font-family:Khmer OS Battambang;
+    font-size: 15px;
+    color: gray;
+    margin: 0 0 0;
+}
+.name h5 {
+    margin-right:100%;
+    font-size: 14px;
+    color: gray;
+    margin: 0;
+}
+
+
+a{
+    text-decoration: none;
+}
+.name li{
+    list-style: none;
+}
